@@ -37,7 +37,7 @@ class SavingAccount extends account{
 class CurrentAccount extends account{
     
 }
-   
+
 
 $savingAccount = new SavingAccount('Manail', '123456789',5, 1000);
 $balance = $savingAccount->getBalance();
